@@ -132,11 +132,11 @@ h6 {
   text-transform: uppercase;
   transition: 0.3s;
   color: #fff;
-  background: var(--color-primary);
+  background: var(--color-third);
 }
 
 .page-header .cta-btn:hover {
-  background: #2cbc85;
+  background: var(--color-primary);
 }
 
 /*--------------------------------------------------------------
@@ -149,7 +149,7 @@ h6 {
   right: 15px;
   bottom: -15px;
   z-index: 99999;
-  background: var(--color-primary);
+  background: var(--color-third);
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -163,7 +163,7 @@ h6 {
 }
 
 .scroll-top:hover {
-  background: var(--color-third);
+  background: var(--color-primary);
   color: #fff;
 }
 
@@ -1226,11 +1226,11 @@ h6 {
   text-transform: uppercase;
   transition: 0.3s;
   color: #fff;
-  background: var(--color-primary);
+  background: var(--color-third);
 }
 
 .hero .btn-get-started:hover {
-  background: var(--color-third);
+  background: var(--color-primary);
 }
 
 @media (max-width: 768px) {
