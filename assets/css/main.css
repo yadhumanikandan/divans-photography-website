@@ -73,16 +73,16 @@ h6 {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(0, 0, 0, 0.6);
   font-family: var(--font-primary);
 }
 
 .section-header h2::after {
   content: "";
-  width: 120px;
-  height: 1px;
+  width: 150px;
+  height: 1.5px;
   display: inline-block;
-  background: #5bd9a9;
+  background: var(--color-third);
   margin: 4px 10px;
 }
 
@@ -92,7 +92,7 @@ h6 {
   font-size: 36px;
   font-weight: 700;
   font-family: var(--font-secondary);
-  color: #fff;
+  color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -107,7 +107,7 @@ h6 {
 .page-header h2 {
   font-size: 56px;
   font-weight: 500;
-  color: #fff;
+  color: #000000;
   font-family: var(--font-secondary);
 }
 
@@ -118,7 +118,7 @@ h6 {
 }
 
 .page-header p {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .page-header .cta-btn {
@@ -533,7 +533,7 @@ h6 {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    border: 1px solid rgba(0, 0, 0, 0.568);
+    border: 0px solid rgba(0, 0, 0, 0.568);
   }
 
   .navbar .dropdown>.dropdown-active,
@@ -586,7 +586,7 @@ h6 {
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
-  color: var(--color-primary);
+  color: var(--color-third);
 }
 
 .about .content ul {
@@ -598,6 +598,7 @@ h6 {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+  color: #000000;
 }
 
 .about .content ul strong {
@@ -607,8 +608,12 @@ h6 {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: var(--color-primary);
+  color: var(--color-third);
   line-height: 0;
+}
+
+.about .content p {
+  color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -622,7 +627,7 @@ h6 {
   box-sizing: content-box;
   padding: 30px;
   margin: 40px 30px;
-  background: var(--color-secondary);
+  background: var(--color-primary);
   min-height: 320px;
   display: flex;
   flex-direction: column;
@@ -635,7 +640,7 @@ h6 {
 }
 
 .testimonials .testimonial-item .stars i {
-  color: #ffc107;
+  color: #d9ab20;
   margin: 0 1px;
 }
 
