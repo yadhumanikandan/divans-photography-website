@@ -128,10 +128,10 @@ h6 {
   font-size: 14px;
   display: inline-block;
   padding: 12px 40px;
-  border-radius: 4px;
+  border-radius: 12px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  transition: 0.3s;
+  transition: 0.5s;
   color: #fff;
   background: var(--color-third);
 }
@@ -378,7 +378,7 @@ h6 {
     letter-spacing: 1px;
     font-size: 13px;
     font-weight: 400;
-    color: rgba(53, 53, 53, 0.5);
+    color: rgba(0, 0, 0, 0.5);
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -1227,10 +1227,10 @@ h6 {
   font-size: 14px;
   display: inline-block;
   padding: 12px 40px;
-  border-radius: 4px;
+  border-radius: 12px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  transition: 0.3s;
+  transition: 0.5s;
   color: #fff;
   background: var(--color-third);
 }
