@@ -77,6 +77,7 @@ h6 {
   font-family: var(--font-primary);
 }
 
+
 .section-header h2::after {
   content: "";
   width: 150px;
