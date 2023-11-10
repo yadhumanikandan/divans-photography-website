@@ -479,7 +479,7 @@ h6 {
     position: fixed;
     top: 0;
     right: -100%;
-    width: 100%;
+    width: 70%;
     max-width: 400px;
     bottom: 0;
     transition: 0.3s;
